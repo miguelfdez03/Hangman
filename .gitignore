@@ -1,0 +1,54 @@
+# Ignorar binarios y directorios de compilación
+/bin/
+build/
+out/
+
+# Ignorar los archivos generados por IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Ignorar dependencias incluidas manualmente
+lib/
+
+# Configuración del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
+logs/
+*.pid
+
+# Archivos de configuración específicos del entorno
+*.env
+*.properties
+
+# Archivos empaquetados
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# Ignorar dependencias de Maven/Gradle
+.mvn/
+target/
+dependency-reduced-pom.xml
+release.properties
+.m2/
+
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Ignorar resultados de pruebas y cobertura
+*.ec
+*.exec
+*.test
+
+# Archivos temporales creados por el IDE/editor
+*.swp
+*.bak
+*.tmp
+*.orig
