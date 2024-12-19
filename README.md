@@ -15,7 +15,7 @@ Un divertido juego de Ahorcado implementado en Java utilizando Swing.
 ### Desde un IDE
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/mi-proyecto-ahorcado.git
+   git clone https://github.com/miguelfdez03/Hangman.git
    ```
 2. Abre el proyecto en tu IDE preferido.
 3. Ejecuta la clase `Hangman`.
