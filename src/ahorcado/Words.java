@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Words {
 
-    private static final int WORD_COUNT = 15;
+    private static final int WORD_COUNT = 42;
     private String[] words;
     private String selectedWord;
     private String[] formedWord;
@@ -12,21 +12,48 @@ public class Words {
 
     public Words() {
         words = new String[WORD_COUNT];
-        words[0] = "TESTIMONIO";
-        words[1] = "BOCADILLO";
-        words[2] = "BAILE";
-        words[3] = "GIMNASIO";
-        words[4] = "CBUM";
-        words[5] = "FELINO";
-        words[6] = "CERDO";
-        words[7] = "XILOFONO";
-        words[8] = "ESTERNOCLEIDOMASTOIDEO";
-        words[9] = "AHORCADO";
-        words[10] = "ELEFANTE";
-        words[11] = "PROGRAMACION";
-        words[12] = "JAVA";
-        words[13] = "ORDENADOR";
-        words[14] = "DESAFIO";
+        words[0] = "VARIABLE";
+        words[1] = "CONSTRUCTOR";
+        words[2] = "JAVA";
+        words[3] = "ALGORITMO";
+        words[4] = "OBJETO";
+        words[5] = "HERENCIA";
+        words[6] = "INTERFAZ";
+        words[7] = "CLASE";
+        words[8] = "MATRIZ";
+        words[9] = "POLIMORFISMO";
+        words[10] = "DEPURACION";
+        words[11] = "FUNCION";
+        words[12] = "METODO";
+        words[13] = "BUCLE";
+        words[14] = "CONDICIONAL";
+        words[15] = "EXCEPCION";
+        words[16] = "CONCURRENCIA";
+        words[17] = "COMPILADOR";
+        words[18] = "FRAGMENTO";
+        words[19] = "LENGUAJE";
+        words[20] = "PAQUETE";
+        words[21] = "MODULO";
+        words[22] = "BIBLIOTECA";
+        words[23] = "PROTOCOLO";
+        words[24] = "SERIALIZACION";
+        words[25] = "ENCAPSULAMIENTO";
+        words[26] = "APLICACION";
+        words[27] = "SERVIDOR";
+        words[28] = "CLIENTE";
+        words[29] = "CICLO";
+        words[30] = "DEPENDENCIAS";
+        words[31] = "IMPLEMENTACION";
+        words[32] = "SOBRECARGA";
+        words[33] = "PROCESAMIENTO";
+        words[34] = "RECURSIVIDAD";
+        words[35] = "GENERICO";
+        words[36] = "CODIFICACION";
+        words[37] = "SESION";
+        words[38] = "TOKEN";
+        words[39] = "MEMORIA";
+        words[40] = "COMPUTADORA";
+        words[41] = "ARCHIVO";
 
         selectedWord = pickRandomWord();
         formedWord = new String[selectedWord.length()];
